@@ -1,0 +1,27 @@
+body {
+    position: relative;
+}
+  
+body::after {
+    content: "%s";
+    position: absolute;
+    top: 20%%; 
+    left: 0%%; 
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 200%%; 
+    text-align: center;
+    width: 100%%;
+}
+
+body::before {
+    content: "%s";
+    position: absolute;
+    top: 80%%; 
+    left: 0%%; 
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 110%%;
+    text-align: center;
+    width: 100%%;
+}
