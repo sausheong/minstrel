@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pub-id">urn:uuid:d359f848-768a-4038-a5d7-f08cf88e5c47</dc:identifier>
+    <dc:title>The Great Bean Heist</dc:title>
+    <dc:language>en</dc:language>
+    <dc:description>In a small town, a night shift grocery store clerk discovers a group of goblins stealing canned goods. The clerk and the goblins must navigate their unlikely friendship and the consequences of their actions.</dc:description>
+    <dc:creator id="creator">Chang Sau Sheong</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
+    <meta name="cover" content="cover.png"></meta>
+    <meta property="dcterms:modified">2023-11-26T14:28:50Z</meta>
+  </metadata>
+  <manifest>
+    <item id="id77a5b8b0-8681-520e-aa94-430e21a86c6c" href="css/cover.css" media-type="text/css"></item>
+    <item id="id5e1fc15a-31c4-583d-9c5a-d2a141d02df3" href="images/cover.png" media-type="image/png" properties="cover-image"></item>
+    <item id="cover.xhtml" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0001.xhtml" href="xhtml/section0001.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0002.xhtml" href="xhtml/section0002.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0003.xhtml" href="xhtml/section0003.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0004.xhtml" href="xhtml/section0004.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0005.xhtml" href="xhtml/section0005.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0006.xhtml" href="xhtml/section0006.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0007.xhtml" href="xhtml/section0007.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0008.xhtml" href="xhtml/section0008.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0009.xhtml" href="xhtml/section0009.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0010.xhtml" href="xhtml/section0010.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0011.xhtml" href="xhtml/section0011.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="section0012.xhtml" href="xhtml/section0012.xhtml" media-type="application/xhtml+xml"></item>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"></item>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"></item>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"></itemref>
+    <itemref idref="section0001.xhtml"></itemref>
+    <itemref idref="section0002.xhtml"></itemref>
+    <itemref idref="section0003.xhtml"></itemref>
+    <itemref idref="section0004.xhtml"></itemref>
+    <itemref idref="section0005.xhtml"></itemref>
+    <itemref idref="section0006.xhtml"></itemref>
+    <itemref idref="section0007.xhtml"></itemref>
+    <itemref idref="section0008.xhtml"></itemref>
+    <itemref idref="section0009.xhtml"></itemref>
+    <itemref idref="section0010.xhtml"></itemref>
+    <itemref idref="section0011.xhtml"></itemref>
+    <itemref idref="section0012.xhtml"></itemref>
+  </spine>
+</package>
